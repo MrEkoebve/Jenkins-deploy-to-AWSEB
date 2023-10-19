@@ -7,3 +7,5 @@ Small guide for creation of the highly-available webapp deployment after tests t
 2. Installed Jenkins webserver 
 3. Github repository with the working webapplication
 4. Amazon Work Station Elastic Beanstalk environment
+
+**GIT WEBHOOK**
