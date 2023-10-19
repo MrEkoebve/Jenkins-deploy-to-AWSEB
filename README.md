@@ -61,7 +61,7 @@ In addition, add AWSEB Plugin and Credentials. Go Dashboard > Manage Jenkins > P
 
 On the Dashboard click ”New Item”. Name it and you can choose a freestyle project. In settings you can change how many last versions of builds you need to keep and how many days. After that, go straight to Source Code Management and find GIT. Put repository of your project in Github ( SSH connection is more secured) and add previosly added credentials of Github. Choose your right branch.
 
-![image](https://github.com/MrEkoebve/Jenkins-deploy-to-AWSEB/assets/74951744/942d6017-4f4d-49fd-81d9-25c5e1fa5d92)
+![image](https://github.com/MrEkoebve/Jenkins-deploy-to-AWSEB/assets/74951744/c9632a3f-42d2-4ef2-bdbf-7a2dbb8a7502)
 
 If you need to do any test in shell you can Add build step > Execute shell. 
 
