@@ -1,13 +1,16 @@
 # Jenkins-deploy-to-AWSEB
-Small guide for creation of the highly-available webapp deployment after tests to AWS Elastic Beanstalk.
+Small guide for the creation of the highly-available webapp deployment after tests to AWS Elastic Beanstalk.
+
+Zero downtime and rollback automatation.
 
 ![image](https://github.com/MrEkoebve/Jenkins-deploy-to-AWSEB/assets/74951744/be9f79fe-08fb-4457-9496-3c2e2c45603d)
 
-We need:
+Resouces:
 - Azure VM environment - Linux Ubuntu Server
 - Installed Jenkins webserver ( +Java)
 - Github repository with the working webapplication
 - Amazon Work Station Elastic Beanstalk environment
+
 
 1. **SSH CONNECTION OF YOUR SERVER AND GIT REPO** 
 Create public and private keys in your server. If you want to have a connection between your server and git, add SSH-keys to you Github.
