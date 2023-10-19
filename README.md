@@ -9,3 +9,7 @@ Small guide for creation of the highly-available webapp deployment after tests t
 4. Amazon Work Station Elastic Beanstalk environment
 
 **GIT WEBHOOK**
+Setting > Webhooks
+You need to add Payload URL (http://jenkins-ip/github-webhhok/). It will send trigger signal to Jenkins. If you need trigger only for push event, choose push event. 
+
+![image](https://github.com/MrEkoebve/Jenkins-deploy-to-AWSEB/assets/74951744/eaa85f96-22e5-460c-bef5-2e9330ed241f)
