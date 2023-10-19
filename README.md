@@ -66,3 +66,6 @@ On the Dashboard click ”New Item”. Name it and you can choose a freestyle pr
 If you need to do any test in shell you can Add build step > Execute shell. 
 
 Now it is possible to add AWSEB to successful deployment. Press “Add build step” and choose “AWS Elastic Beanstalk”. Add your credentials to aws (previously added). Click right availability zone of your webapp in AWSEB and how many times Jenkins will try to connect to the environment of webapp. Fill the name of your project and its environment. In packaging choose directory/fie to clone. (if it full repository, you can add a dot (.)) You can add some extra steps to your project. For example, name of the build ${BUILD_ID}. After that you can apply and save this configuration. All versions of your webapp you can find in AWSEB Applications > applications versions. 
+
+![image](https://github.com/MrEkoebve/Jenkins-deploy-to-AWSEB/assets/74951744/918a0bba-b486-4e14-b258-9675257223f1)
+
